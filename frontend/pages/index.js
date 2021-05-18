@@ -1,9 +1,5 @@
-import Page from '../components/Page'
+export { default } from './products'
+// another way
 
-export default function IndexPage() {
-  return (
-    <div>
-      <p>Hello!</p>
-    </div>
-  )
-}
+// import ProductsPage from './products'
+// export default ProductsPage
